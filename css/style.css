@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+body {
+  font-family: "한국외대체 B";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: start;
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  min-width: 1240px;
+  display: block;
+  position: relative;
+  z-index: 100;
+  zoom: 0.7;
+}
+
+div {
+  display: block;
+}
+
+.main-container {
+  padding-top: 140px;
+  min-width: 1240px;
+}
+
+.header-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: auto;
+  padding: 0;
+}
+
+.header-main {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.header-main > .school-logo {
+  float: left;
+  padding: 20px 0;
+  margin-right: 32px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.header-main > .main-title {
+  float: left;
+  padding: 0 73px;
+  margin-right: 32px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.header-main > .main-menu {
+  float: right;
+  position: relative;
+  z-index: 1;
+  max-width: 1240px;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu > ul > li {
+  float: left;
+  position: relative;
+}
+
+.main-menu > ul > li > a {
+  display: block;
+  position: relative;
+  padding: 0 25px;
+  line-height: 100px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #888;
+  text-decoration: none;
+}
+.main-menu > ul > li > a:hover {
+  color: #212529;
+}
+
+.main-menu > ul > li > ul {
+  display: none;
+}
+
+.main-menu > ul > li > a:hover + ul.sub2 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+.sub2:hover {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+.sub2 > li > a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  min-width: 100%;
+  height: 30px;
+  padding: 0 30px 0 10px;
+  line-height: 40px;
+  font-size: 10px;
+  color: darkgrey;
+}
+
+.sub2 > li > a:hover {
+  color: orange;
+}
+
+.body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  position: relative;
+  background-color: #fffafa;
+}
+
+.body > .content {
+  float: none;
+  width: 1200px;
+}
+
+.table-container1 {
+  padding-left: 50px;
+  padding-right: 130px;
+  width: 550px;
+  display: table-cell;
+}
+
+.table-container2 {
+  width: 550px;
+  display: table-cell;
+}
+
+.table-container1 > .content-title {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.table-container2 > .content-title {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.table-container1 > .content-title > .table1 {
+  border-collapse: collapse;
+}
+.table-container2 > .content-title > .table2 {
+  border-collapse: collapse;
+}
+
+.th1,
+.td1 {
+  text-align: center;
+  padding: 10px 20px;
+  height: 15px;
+  width: 100px;
+}
+
+.tb1 {
+  background-color: white;
+}
+
+.td1:hover {
+  background: rgb(250, 237, 239);
+}
+
+.th2,
+.td2 {
+  text-align: center;
+  padding: 10px 15px;
+  height: 15px;
+  width: 120px;
+}
+
+.tb2 {
+  background-color: white;
+}
+
+.td2:hover {
+  background: rgb(250, 237, 239);
+}
+
+tr {
+  font-size: 20px;
+}
